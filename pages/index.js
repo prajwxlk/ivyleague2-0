@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="bg-black">
-      <div className="pt-8 mx-10">
+      <div className="pt-8 mx-20">
         <hero className="grid justify-items-center">
           <h1 className="text-2xl sm:text-6xl mb-2 sm:mb-4 text-center font-bold leading-none tracking-tighter text-white">
             Ivy League 2.0
