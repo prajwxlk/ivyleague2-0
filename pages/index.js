@@ -1,82 +1,101 @@
-import Head from 'next/head'
-
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    <div className="bg-black">
+      <div className="pt-8 mx-10">
+        <hero className="grid justify-items-center">
+          <h1 className="text-2xl sm:text-6xl mb-2 sm:mb-4 text-center font-bold leading-none tracking-tighter text-white">
+            Ivy League 2.0
+          </h1>
+          <h2 className="text-lg sm:text-3xl mb-2 sm:mb-4 text-center font-semibold text-base leading-relaxed text-white max-w-prose">
+            Learn from the top universities <br></br> in the world for free!
+          </h2>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
+          <div class="container items-center">
+            <div class="p-2 w-4/6 mx-auto my-8 px-5 py-5 bg-white border rounded-lg shadow-xl">
+              <div class="flex-grow p-6 py-2 rounded-lg">
+                <p class="mb-2 text-xl font-bold leading-relaxed text-gray-800"> 
+                  Who is this for?
+                </p>
+                <p class="mb-3 text-xl leading-relaxed text-gray-800"> 
+                  For all the curious folks out there who are set back by limitations but won't give up on learning, this is the place for you!
+                </p>
+              </div>
+            </div>
+          </div>
+        
+        </hero>
 
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
-        </p>
+        <section  className="flex flex-row gap-4 pb-8">
+          <cards>
+            <div class="container">
+              <div class="p-2 px-5 py-40 rounded-lg shadow-xl bg-gradient-to-r from-green-400 to-blue-500">
+                <div class="flex-grow p-6 py-2 rounded-lg">
+                  <p class="mb-2 text-2xl font-bold leading-none tracking-tighter text-white sm:text-5xl"> 
+                    Jack of all trades?
+                  </p>
+                  <p class="mb-3 text-xl font-semibold leading-relaxed text-gray-100	"> 
+                    All the courses from top universities like Harvard, Stanford, MIT, etc for Free!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </cards>
+          <grid className="grid grid-cols-2 gap-4">
+              <div>
+                <div class="p-2 px-5 py-10 bg-gradient-to-tl from-green-400 to-yellow-400 rounded-lg shadow-xl">
+                  <div class="flex-grow p-6 py-2 rounded-lg">
+                    <p class="mb-2 text-2xl font-bold leading-none tracking-tighter text-white sm:text-3xl"> 
+                      Numbers say more than words?
+                    </p>
+                    <p class="mb-3 text-xl font-semibold leading-relaxed text-gray-100	"> 
+                      Courses on Mathematics from MIT & Harvard.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
+              <div>
+                <div class="p-2 px-5 py-10 bg-gradient-to-bl from-pink-500 to-blue-600 rounded-lg shadow-xl">
+                  <div class="flex-grow p-6 py-2 rounded-lg">
+                    <p class="mb-2 text-2xl font-bold leading-none tracking-tighter text-white sm:text-3xl"> 
+                      Fan of Feynman?
+                    </p>
+                    <p class="mb-3 text-xl font-semibold leading-relaxed text-gray-100	"> 
+                      Courses on Physics, Biology, Chemistry from MIT, Yale & Stanford.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
+              <div>
+                <div class="p-2 px-5 py-10 bg-gradient-to-r from-red-400 to-yellow-500 rounded-lg shadow-xl">
+                  <div class="flex-grow p-6 py-2 rounded-lg">
+                    <p class="mb-2 text-2xl font-bold leading-none tracking-tighter text-white sm:text-3xl"> 
+                      Think like Bill?
+                    </p>
+                    <p class="mb-3 text-xl font-semibold leading-relaxed text-gray-100	"> 
+                      Courses on Computers and Machine Learning from MIT & Harvard.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
-      </footer>
+              <div>
+                <div class="p-2 px-5 py-10 bg-gradient-to-b from-pink-400 via-red-400 to-red-600 rounded-lg shadow-xl">
+                  <div class="flex-grow p-6 py-2 rounded-lg">
+                    <p class="mb-2 text-2xl font-bold leading-none tracking-tighter text-white sm:text-3xl"> 
+                      Quoting Naval often?
+                    </p>
+                    <p class="mb-3 text-xl font-semibold leading-relaxed text-gray-100	"> 
+                      Courses on Psychology and Philosophy from Yale and University of Toronto.
+                    </p>
+                  </div>
+                </div>
+              </div>
+          </grid>
+        </section>
+      </div>
+      
     </div>
   )
 }
