@@ -12,6 +12,11 @@
 /.next/
 /out/
 
+#test files
+test.js
+test1.js
+test2.js
+
 # production
 /build
 
