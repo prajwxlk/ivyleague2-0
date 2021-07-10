@@ -20,6 +20,6 @@ const Cards = ({ data }) => {
                 </div>
         </div>
     )
-} */
+} 
 
-export default Cards;
+export default Cards; */
