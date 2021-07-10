@@ -31,18 +31,18 @@ export default function Psychology() {
             <body className="bg-black">
                 <Header/>
                 <div className="grid px-20 grid-cols-4 gap-4">
-                    <div class="container items-center  text-blueGray-500">
-                        <div class="p-2 my-6 bg-white border rounded-lg shadow-xl">
-                            <div class="p-6">
-                                <h4 class="mb-2 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font "> 
+                    <div className="container items-center  text-blueGray-500">
+                        <div className="p-2 my-6 bg-white border rounded-lg shadow-xl">
+                            <div className="p-6">
+                                <h4 className="mb-2 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font "> 
                                     Personality & its transformation with Jordan Peterson
                                 </h4>
-                                <h2 class="mb-2 text-xs font-semibold tracking-widest text-black uppercase title-font"> 
+                                <h2 className="mb-2 text-xs font-semibold tracking-widest text-black uppercase title-font"> 
                                     by University of Toronto
                                 </h2>
                                 <Link href="https://www.youtube.com/playlist?list=PL6A08EB4EEFF3E91F">
                                     <a target="_blank">
-                                        <button class="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
+                                        <button className="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             View Course 
                                         </button>
                                     </a>    
@@ -53,18 +53,18 @@ export default function Psychology() {
 
                     
 
-                    <div class="container items-center  text-blueGray-500">
-                        <div class="p-2 my-6 bg-white border rounded-lg shadow-xl">
-                            <div class="p-6">
-                                <h4 class="mb-2 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font "> 
+                    <div className="container items-center  text-blueGray-500">
+                        <div className="p-2 my-6 bg-white border rounded-lg shadow-xl">
+                            <div className="p-6">
+                                <h4 className="mb-2 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font "> 
                                     Personality & its transformation with Jordan Peterson
                                 </h4>
-                                <h2 class="mb-2 text-xs font-semibold tracking-widest text-black uppercase title-font"> 
+                                <h2 className="mb-2 text-xs font-semibold tracking-widest text-black uppercase title-font"> 
                                     by University of Toronto
                                 </h2>
                                 <Link href="https://www.youtube.com/playlist?list=PL6A08EB4EEFF3E91F">
                                     <a target="_blank">
-                                        <button class="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
+                                        <button className="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             View Course 
                                         </button>
                                     </a>    
@@ -73,18 +73,18 @@ export default function Psychology() {
                         </div>
                     </div>
 
-                    <div class="container items-center  text-blueGray-500">
-                        <div class="p-2 my-6 bg-white border rounded-lg shadow-xl">
-                            <div class="p-6">
-                                <h4 class="mb-2 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font "> 
+                    <div className="container items-center  text-blueGray-500">
+                        <div className="p-2 my-6 bg-white border rounded-lg shadow-xl">
+                            <div className="p-6">
+                                <h4 className="mb-2 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font "> 
                                     Personality & its transformation with Jordan Peterson
                                 </h4>
-                                <h2 class="mb-2 text-xs font-semibold tracking-widest text-black uppercase title-font"> 
+                                <h2 className="mb-2 text-xs font-semibold tracking-widest text-black uppercase title-font"> 
                                     by University of Toronto
                                 </h2>
                                 <Link href="https://www.youtube.com/playlist?list=PL6A08EB4EEFF3E91F">
                                     <a target="_blank">
-                                        <button class="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
+                                        <button className="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             View Course 
                                         </button>
                                     </a>    
@@ -93,18 +93,18 @@ export default function Psychology() {
                         </div>
                     </div>
 
-                    <div class="container items-center  text-blueGray-500">
-                        <div class="p-2 my-6 bg-white border rounded-lg shadow-xl">
-                            <div class="p-6">
-                                <h4 class="mb-2 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font "> 
+                    <div className="container items-center  text-blueGray-500">
+                        <div className="p-2 my-6 bg-white border rounded-lg shadow-xl">
+                            <div className="p-6">
+                                <h4 className="mb-2 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font "> 
                                     Personality & its transformation with Jordan Peterson
                                 </h4>
-                                <h2 class="mb-2 text-xs font-semibold tracking-widest text-black uppercase title-font"> 
+                                <h2 className="mb-2 text-xs font-semibold tracking-widest text-black uppercase title-font"> 
                                     by University of Toronto
                                 </h2>
                                 <Link href="https://www.youtube.com/playlist?list=PL6A08EB4EEFF3E91F">
                                     <a target="_blank">
-                                        <button class="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
+                                        <button className="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             View Course 
                                         </button>
                                     </a>    
@@ -113,18 +113,18 @@ export default function Psychology() {
                         </div>
                     </div>
 
-                    <div class="container items-center  text-blueGray-500">
-                        <div class="p-2 my-6 bg-white border rounded-lg shadow-xl">
-                            <div class="p-6">
-                                <h4 class="mb-2 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font "> 
+                    <div className="container items-center  text-blueGray-500">
+                        <div className="p-2 my-6 bg-white border rounded-lg shadow-xl">
+                            <div className="p-6">
+                                <h4 className="mb-2 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font "> 
                                     Personality & its transformation with Jordan Peterson
                                 </h4>
-                                <h2 class="mb-2 text-xs font-semibold tracking-widest text-black uppercase title-font"> 
+                                <h2 className="mb-2 text-xs font-semibold tracking-widest text-black uppercase title-font"> 
                                     by University of Toronto
                                 </h2>
                                 <Link href="https://www.youtube.com/playlist?list=PL6A08EB4EEFF3E91F">
                                     <a target="_blank">
-                                        <button class="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
+                                        <button className="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             View Course 
                                         </button>
                                     </a>    
@@ -133,18 +133,18 @@ export default function Psychology() {
                         </div>
                     </div>
 
-                    <div class="container items-center  text-blueGray-500">
-                        <div class="p-2 my-6 bg-white border rounded-lg shadow-xl">
-                            <div class="p-6">
-                                <h4 class="mb-2 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font "> 
+                    <div className="container items-center  text-blueGray-500">
+                        <div className="p-2 my-6 bg-white border rounded-lg shadow-xl">
+                            <div className="p-6">
+                                <h4 className="mb-2 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font "> 
                                     Personality & its transformation with Jordan Peterson
                                 </h4>
-                                <h2 class="mb-2 text-xs font-semibold tracking-widest text-black uppercase title-font"> 
+                                <h2 className="mb-2 text-xs font-semibold tracking-widest text-black uppercase title-font"> 
                                     by University of Toronto
                                 </h2>
                                 <Link href="https://www.youtube.com/playlist?list=PL6A08EB4EEFF3E91F">
                                     <a target="_blank">
-                                        <button class="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
+                                        <button className="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             View Course 
                                         </button>
                                     </a>    
@@ -153,18 +153,18 @@ export default function Psychology() {
                         </div>
                     </div>
 
-                    <div class="container items-center  text-blueGray-500">
-                        <div class="p-2 my-6 bg-white border rounded-lg shadow-xl">
-                            <div class="p-6">
-                                <h4 class="mb-2 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font "> 
+                    <div className="container items-center  text-blueGray-500">
+                        <div className="p-2 my-6 bg-white border rounded-lg shadow-xl">
+                            <div className="p-6">
+                                <h4 className="mb-2 text-2xl font-semibold leading-none tracking-tighter text-black lg:text-3xl title-font "> 
                                     Personality & its transformation with Jordan Peterson
                                 </h4>
-                                <h2 class="mb-2 text-xs font-semibold tracking-widest text-black uppercase title-font"> 
+                                <h2 className="mb-2 text-xs font-semibold tracking-widest text-black uppercase title-font"> 
                                     by University of Toronto
                                 </h2>
                                 <Link href="https://www.youtube.com/playlist?list=PL6A08EB4EEFF3E91F">
                                     <a target="_blank">
-                                        <button class="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
+                                        <button className="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             View Course 
                                         </button>
                                     </a>    

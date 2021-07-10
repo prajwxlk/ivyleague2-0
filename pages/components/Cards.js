@@ -1,5 +1,5 @@
 import React from 'react'
-
+/*
 const Cards = ({ data }) => {
     return (
         <div>
@@ -20,6 +20,6 @@ const Cards = ({ data }) => {
                 </div>
         </div>
     )
-}
+} */
 
 export default Cards;
