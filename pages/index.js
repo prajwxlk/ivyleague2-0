@@ -4,17 +4,17 @@ import Header from './components/Header'
 export default function Home() {
   return (
     <div className="bg-black">
-      <div className="pt-8 mx-20">
-        <hero className="grid justify-items-center">
-          <h1 className="text-2xl sm:text-6xl mb-2 sm:mb-4 text-center font-bold leading-none tracking-tighter text-white">
+      <div className="pt-8 sm:mx-20">
+        <hero className="grid ">
+          <h1 className="text-4xl sm:text-6xl mb-2 sm:mb-4 text-center font-bold leading-none tracking-tighter text-white">
             Ivy League 2.0
           </h1>
-          <h2 className="text-lg sm:text-3xl mb-2 sm:mb-4 text-center font-semibold text-base leading-relaxed text-white max-w-prose">
+          <h2 className="text-xl sm:text-3xl mb-2 sm:mb-4 text-center font-semibold text-base leading-relaxed text-white max-w-prose">
             Learn from the top universities <br></br> in the world for free!
           </h2>
 
-          <div className="container items-center">
-            <div className="p-2 w-4/6 mx-auto my-8 px-5 py-5 bg-white border rounded-lg shadow-xl">
+          <div className="flex justify-center">
+            <div className="p-2 sm:w-4/6 mx-4 my-8 px-1 py-5 bg-white border rounded-lg shadow-xl">
               <div className="flex-grow p-6 py-2 rounded-lg">
                 <p className="mb-2 text-xl font-bold leading-relaxed text-gray-800"> 
                   Who is this for?
@@ -30,12 +30,12 @@ export default function Home() {
 
         <Header/>
 
-        <section  className="flex flex-row gap-4 pb-8">
+        <section  className="flex flex-col sm:flex-row gap-4 pb-8 mx-4">
           <cards>
             <div className="container">
                 <Link href="/subject/all">
                   <a>
-                    <div className="p-2 px-5 py-40 rounded-lg shadow-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-600 hover:to-blue-700">
+                    <div className="p-2 px-2 py-10 sm:px-5 sm:py-40 rounded-lg shadow-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-600 hover:to-blue-700">
                       <div className="flex-grow p-6 py-2 rounded-lg">
                         <p className="mb-2 text-2xl font-bold leading-none tracking-tighter text-white sm:text-5xl"> 
                           Jack of all trades?
@@ -49,7 +49,7 @@ export default function Home() {
                 </Link>
             </div>
           </cards>
-          <grid className="grid grid-cols-2 gap-4">
+          <grid className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <Link href="/subject/maths">
                   <a>
