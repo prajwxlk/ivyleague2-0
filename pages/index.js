@@ -7,12 +7,9 @@ export default function Home() {
   return (
     <div className="bg-black">
       <div className="pt-8 sm:mx-20">
-<<<<<<< HEAD
         <div className="flex justify-end mx-5 mb-2">
           <Header/>
         </div>
-=======
->>>>>>> 34b1059d46578f08b2b300399e58ce73d91104fd
         <hero className="grid ">
           <h1 className="text-4xl sm:text-6xl mb-2 sm:mb-4 text-center font-bold leading-none tracking-tighter text-white">
             Ivy League 2.0
