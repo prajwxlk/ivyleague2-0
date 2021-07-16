@@ -1,6 +1,6 @@
 import useSWR from 'swr'
 import CoursesGrid from '../components/CoursesGrid'
-import courses from '../api/psychology'
+//import courses from '../api/psychology'
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
