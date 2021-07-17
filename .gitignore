@@ -37,8 +37,3 @@ yarn-error.log*
 
 # vercel
 .vercel
-
-#WIP with Keys
-psychology.js
-maths.js
-
