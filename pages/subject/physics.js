@@ -1,13 +1,3 @@
-const getStaticProps = async () => {
-
-    const res = await fetch('http://localhost:3000/api/psychology');
-    const data = await res.json();
-
-    return {
-        props: { courses: data }
-    }
-}
-
 const Courses = ({ courses }) => {
     return (
         <div>
@@ -15,5 +5,3 @@ const Courses = ({ courses }) => {
         </div>
     )
 }
-
-export default getStaticProps;
