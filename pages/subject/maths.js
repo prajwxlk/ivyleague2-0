@@ -1,6 +1,6 @@
 import React from 'react'
 const { Client } = require('@notionhq/client');
-const notion = new Client({ auth: 'secret_7BC6siSDxuqwJO8nyng9AE1cdXJglG4e1NIpPNQ5JUg' });
+const notion = new Client({ auth: process.env.NOTION_API_KEY });
 
 function Maths({ pageResponse }) {
     
@@ -12,7 +12,7 @@ function Maths({ pageResponse }) {
 }
 
 export async function getStaticProps() {
-    const databaseId = 'a1b7e3b5be0b41b3946062c5afef31b3';
+    const databaseId = process.env.NOTION_DATABASE_ID;
     const response = await notion.databases.query({
         database_id: databaseId,
         filter: {
