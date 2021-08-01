@@ -43,7 +43,7 @@ export default function Home() {
                         <Link href="/subject/all">
                                     <a target="_blank">
                                         <button className="px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
-                                            View Courses
+                                            Explore →
                                         </button>
                                     </a>    
                                 </Link>
@@ -64,7 +64,7 @@ export default function Home() {
                         <Link href="/subject/maths">
                                     <a target="_blank">
                                         <button className=" px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
-                                            View Courses
+                                            Explore →
                                         </button>
                                     </a>    
                                 </Link>
@@ -84,7 +84,7 @@ export default function Home() {
                         <Link href="/subject/physics">
                                     <a target="_blank">
                                         <button className=" px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
-                                            View Courses
+                                            Explore →
                                         </button>
                                     </a>    
                                 </Link>
@@ -104,7 +104,7 @@ export default function Home() {
                         <Link href="/subject/computers">
                                     <a target="_blank">
                                         <button className=" px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
-                                            View Courses
+                                            Explore →
                                         </button>
                                     </a>    
                                 </Link>
@@ -124,7 +124,7 @@ export default function Home() {
                         <Link href="/subject/philosophy">
                                     <a target="_blank">
                                         <button className=" px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
-                                            View Courses
+                                            Explore →
                                         </button>
                                     </a>    
                                 </Link>
