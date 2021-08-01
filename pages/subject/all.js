@@ -31,7 +31,7 @@ export default function Index() {
                 </div>
             </header>
             <body className="bg-black">
-                <div className="grid px-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 sm:px-20 sm:gap-4">
+                <div className="grid px-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:px-20 sm:gap-4">
                     <div className="container items-center  text-blueGray-500">
                         <div className="p-2 my-2 sm:my-6 bg-white border rounded-lg shadow-xl">
                           <div className="p-6">

@@ -47,7 +47,7 @@ export default function Index() {
             </header>
             <body className="bg-black">
                 <Navigation/>
-                <div className="grid px-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 sm:px-20 sm:gap-4">
+                <div className="grid px-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:px-20 sm:gap-4">
                   {dataOutput.map((dataOutput, index) => (
                     <div key={index}>
                       <div className="container items-center  text-blueGray-500">
