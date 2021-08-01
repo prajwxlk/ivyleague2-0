@@ -69,7 +69,7 @@ export default function Home() {
               </div>
 
               <div>
-                <Link href="/subject/pcb">
+                <Link href="/subject/physics">
                   <a>
                     <div className="p-2 px-5 py-10 bg-gradient-to-bl from-pink-500 to-blue-600 hover:from-pink-700 hover:to-blue-800 rounded-lg shadow-xl">
                       <div className="flex-grow p-6 py-2 rounded-lg">
@@ -86,7 +86,7 @@ export default function Home() {
               </div>
 
               <div>
-                <Link href="/subject/computer">
+                <Link href="/subject/computers">
                   <a>
                     <div className="p-2 px-5 py-10 bg-gradient-to-r from-red-400 to-yellow-500 hover:from-red-500 hover:to-yellow-600 rounded-lg shadow-xl">
                       <div className="flex-grow p-6 py-2 rounded-lg">
