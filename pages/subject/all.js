@@ -41,6 +41,7 @@ export default function Index() {
                     </div>
                 </div>
             </header>
+            <Navigation/>
             <body className="bg-black">
                 <div className="grid px-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 sm:px-20 sm:gap-4">
                   {dataOutput.map((dataOutput, index) => (

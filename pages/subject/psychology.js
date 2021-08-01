@@ -1,5 +1,6 @@
 import useSWR from 'swr'
 import Link from 'next/link'
+import Navigation from '../components/Navigation'
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
@@ -42,6 +43,7 @@ export default function Index() {
                 </div>
             </header>
             <body className="bg-black">
+                <Navigation/>
                 <div className="grid px-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 sm:px-20 sm:gap-4">
                   {dataOutput.map((dataOutput, index) => (
                     <div key={index}>

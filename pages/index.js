@@ -29,8 +29,6 @@ export default function Home() {
         
         </hero>
 
-        <Navigation/>
-
         <section  className="flex flex-col sm:flex-row gap-4 pb-8 mx-4">
           <cards>
             <div className="container">
