@@ -7,7 +7,7 @@ export default async function handler(req, res) {
 
     const databaseId = process.env.NOTION_DATABASE_ID;
     const response = await notion.databases.query({
-      database_id: databaseId,
+      database_id: databaseId
     });
 
     var i = 0;
