@@ -8,16 +8,6 @@ export default async function handler(req, res) {
     const databaseId = process.env.NOTION_DATABASE_ID;
     const response = await notion.databases.query({
       database_id: databaseId,
-      filter: {
-        or: [
-        {
-            property: 'Subject',
-            select: {
-                equals: "Psychology",
-            },
-        },
-        ],
-      },
     });
 
     var i = 0;

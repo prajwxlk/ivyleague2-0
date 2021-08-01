@@ -4,7 +4,7 @@ import Link from 'next/link'
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
 export default function Index() {
-  const { data, error } = useSWR('/api/maths', fetcher)
+  const { data, error } = useSWR('/api/all', fetcher)
 
   if (error) return <div>Failed to load</div>
   if (!data) return <div>Loading...</div>
@@ -31,10 +31,10 @@ export default function Index() {
                         
                     </div>
                     <div className="flex justify-center"> 
-                        <Link href="/subject/maths">
+                        <Link href="/subject/all">
                             <a>
                                 <h1 className="mb-12 py-20 text-4xl font-bold leading-none tracking-tighter text-white sm:text-6xl">
-                                    Maths
+                                    All
                                 </h1>
                             </a>
                         </Link>

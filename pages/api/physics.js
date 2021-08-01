@@ -13,7 +13,7 @@ export default async function handler(req, res) {
         {
             property: 'Subject',
             select: {
-                equals: "Psychology",
+                equals: "Physics",
             },
         },
         ],
