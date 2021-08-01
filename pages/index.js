@@ -10,26 +10,9 @@ export default function Home() {
       </head>
       <div className="pt-8 sm:mx-20">
         <hero className="grid ">
-          <h1 className="text-4xl sm:text-6xl mb-2 sm:mb-4 text-center font-bold leading-none tracking-tighter text-white">
-            Ivy League 2.0
-          </h1>
-          <h2 className="text-xl sm:text-3xl mb-2 sm:mb-4 text-center font-semibold text-base leading-relaxed text-white max-w-prose">
+          <h1 className="text-4xl sm:text-6xl mb-2 sm:mb-6 text-center font-bold leading-none tracking-tighter text-white">
             Learn from the top universities <br></br> in the world for free!
-          </h2>
-
-          <div className="flex justify-center">
-            <div className="p-2 sm:w-4/6 mx-4 my-8 px-1 py-5 bg-white border rounded-lg shadow-xl">
-              <div className="flex-grow p-6 py-2 rounded-lg">
-                <p className="mb-2 text-xl font-bold leading-relaxed text-gray-800"> 
-                  Who is this for?
-                </p>
-                <p className="mb-3 text-xl leading-relaxed text-gray-800"> 
-                  For all the curious folks out there who are set back by limitations but won't give up on learning, this is the place for you!
-                </p>
-              </div>
-            </div>
-          </div>
-        
+          </h1> 
         </hero>
 
         <section  className="flex flex-col sm:flex-row gap-4 pb-8 mx-4">
