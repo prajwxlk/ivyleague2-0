@@ -20,7 +20,7 @@ export default function Index() {
   return (
     <div className="">
         <head>
-            <title>Computers - Ivy League 2.0</title>
+            <title>Computers - Learn from the top universities for Free</title>
         </head>
             <header>
                 <div className="px-5 sm:px-10 lg:px-20 bg-gradient-to-r from-pink-400 via-red-400 to-red-600">

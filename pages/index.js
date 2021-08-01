@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="bg-black">
       <head>
-        <title>Ivy League 2.0</title>
+        <title>Learn from the top universities for Free</title>
       </head>
       <div className="pt-8 sm:mx-20">
         <hero className="grid ">
