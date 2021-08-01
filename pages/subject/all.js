@@ -4,6 +4,9 @@ export default function Index() {
 
   return (
     <div className="">
+        <head>
+            <title>All Subjects - Ivy League 2.0</title>
+        </head>
             <header>
                 <div className="px-5 sm:px-10 lg:px-20 bg-gradient-to-r from-pink-400 via-red-400 to-red-600">
                     <div>
@@ -36,7 +39,7 @@ export default function Index() {
                                   Chemistry
                                 </h4>
                                 <Link href="/subject/chemistry">
-                                    <a target="_blank">
+                                    <a>
                                         <button className="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             View Courses
                                         </button>
@@ -53,7 +56,7 @@ export default function Index() {
                                   Physics
                                 </h4>
                                 <Link href="/subject/physics">
-                                    <a target="_blank">
+                                    <a>
                                         <button className="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             View Courses
                                         </button>
@@ -70,7 +73,7 @@ export default function Index() {
                                   Biology
                                 </h4>
                                 <Link href="/subject/biology">
-                                    <a target="_blank">
+                                    <a>
                                         <button className="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             View Courses
                                         </button>
@@ -87,7 +90,7 @@ export default function Index() {
                                   Computers
                                 </h4>
                                 <Link href="/subject/computers">
-                                    <a target="_blank">
+                                    <a>
                                         <button className="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             View Courses
                                         </button>
@@ -104,7 +107,7 @@ export default function Index() {
                                   Maths
                                 </h4>
                                 <Link href="/subject/maths">
-                                    <a target="_blank">
+                                    <a>
                                         <button className="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             View Courses
                                         </button>
@@ -121,7 +124,7 @@ export default function Index() {
                                   Philosophy
                                 </h4>
                                 <Link href="/subject/philosophy">
-                                    <a target="_blank">
+                                    <a>
                                         <button className="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             View Courses
                                         </button>
@@ -138,7 +141,7 @@ export default function Index() {
                                   Psychology
                                 </h4>
                                 <Link href="/subject/psychology">
-                                    <a target="_blank">
+                                    <a>
                                         <button className="w-full px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             View Courses
                                         </button>

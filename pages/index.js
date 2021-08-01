@@ -5,6 +5,9 @@ import Navigation from './components/Navigation'
 export default function Home() {
   return (
     <div className="bg-black">
+      <head>
+        <title>Ivy League 2.0</title>
+      </head>
       <div className="pt-8 sm:mx-20">
         <hero className="grid ">
           <h1 className="text-4xl sm:text-6xl mb-2 sm:mb-4 text-center font-bold leading-none tracking-tighter text-white">
@@ -41,7 +44,7 @@ export default function Home() {
                           All the courses from top universities like Harvard, Stanford, MIT, etc for Free!
                         </p>
                         <Link href="/subject/all">
-                                    <a target="_blank">
+                                    <a>
                                         <button className="px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             Explore →
                                         </button>
@@ -62,7 +65,7 @@ export default function Home() {
                           Courses on Mathematics from MIT & Harvard.
                         </p>
                         <Link href="/subject/maths">
-                                    <a target="_blank">
+                                    <a>
                                         <button className=" px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             Explore →
                                         </button>
@@ -82,7 +85,7 @@ export default function Home() {
                           Courses on Physics, Biology, Chemistry from MIT, Yale & Stanford.
                         </p>
                         <Link href="/subject/physics">
-                                    <a target="_blank">
+                                    <a>
                                         <button className=" px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             Explore →
                                         </button>
@@ -102,7 +105,7 @@ export default function Home() {
                           Courses on Computers and Machine Learning from MIT & Harvard.
                         </p>
                         <Link href="/subject/computers">
-                                    <a target="_blank">
+                                    <a>
                                         <button className=" px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             Explore →
                                         </button>
@@ -122,7 +125,7 @@ export default function Home() {
                           Courses on Psychology and Philosophy from Yale and University of Toronto.
                         </p>
                         <Link href="/subject/philosophy">
-                                    <a target="_blank">
+                                    <a>
                                         <button className=" px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
                                             Explore →
                                         </button>
