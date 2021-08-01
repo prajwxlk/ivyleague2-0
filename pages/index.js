@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Footer from './components/Footer'
-import Navigation from './components/Navigation'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -14,6 +14,25 @@ export default function Home() {
             Learn from the top universities <br></br> in the world for free!
           </h1> 
         </hero>
+
+        <div className="fixed m-4 bottom-0 right-0">
+          <div className="flex flex-row gap-2">
+            <div className="">
+                <Link href="https://api.whatsapp.com/send?text=Curious%20about%20everything%20around%3F%20%0A%0ALearn%20from%20the%20top%20universities%20in%20the%20world%20for%20free!%0A%0ACheckout%20%3A%20internetisawesome.xyz">
+                    <a>
+                        <Image src="/whatsapp.png" height={48} width={48}></Image>    
+                    </a>
+                </Link>
+            </div>
+            <div className="">
+                <Link href="https://twitter.com/intent/tweet?text=Curious%20about%20everything%20around%3F%20%0A%0ALearn%20from%20the%20top%20universities%20in%20the%20world%20for%20free!%0A%0ACheckout%20%3A%20internetisawesome.xyz">
+                    <a>
+                        <Image src="/twitter.png" height={48} width={48}></Image>    
+                    </a>
+                </Link>
+            </div>
+          </div>
+        </div>
 
         <section  className="flex flex-col sm:flex-row gap-4 pb-8 mx-4">
           <cards>

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Index() {
 
@@ -30,6 +31,45 @@ export default function Index() {
                     </div>
                 </div>
             </header>
+
+            <div className="fixed m-4 bottom-0 right-0">
+          <div className="flex flex-row gap-2">
+            <div className="">
+                <Link href="https://api.whatsapp.com/send?text=Curious%20about%20everything%20around%3F%20%0A%0ALearn%20from%20the%20top%20universities%20in%20the%20world%20for%20free!%0A%0ACheckout%20%3A%20internetisawesome.xyz">
+                    <a>
+                        <Image src="/whatsapp.png" height={48} width={48}></Image>    
+                    </a>
+                </Link>
+            </div>
+            <div className="">
+                <Link href="https://twitter.com/intent/tweet?text=Curious%20about%20everything%20around%3F%20%0A%0ALearn%20from%20the%20top%20universities%20in%20the%20world%20for%20free!%0A%0ACheckout%20%3A%20internetisawesome.xyz">
+                    <a>
+                        <Image src="/twitter.png" height={48} width={48}></Image>    
+                    </a>
+                </Link>
+            </div>
+          </div>
+        </div>
+
+            <div className="fixed m-4 bottom-0 right-0">
+          <div className="flex flex-row gap-2">
+            <div className="">
+                <Link href="https://api.whatsapp.com/send?text=Curious%20about%20everything%20around%3F%20%0A%0ALearn%20from%20the%20top%20universities%20in%20the%20world%20for%20free!%0A%0ACheckout%20%3A%20internetisawesome.xyz">
+                    <a>
+                        <Image src="/whatsapp.png" height={48} width={48}></Image>    
+                    </a>
+                </Link>
+            </div>
+            <div className="">
+                <Link href="https://twitter.com/intent/tweet?text=Curious%20about%20everything%20around%3F%20%0A%0ALearn%20from%20the%20top%20universities%20in%20the%20world%20for%20free!%0A%0ACheckout%20%3A%20internetisawesome.xyz">
+                    <a>
+                        <Image src="/twitter.png" height={48} width={48}></Image>    
+                    </a>
+                </Link>
+            </div>
+          </div>
+        </div>
+
             <body className="bg-black">
                 <div className="grid px-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 sm:px-20 sm:gap-4">
                     <div className="container items-center  text-blueGray-500">
