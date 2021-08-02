@@ -8,18 +8,18 @@ export default function Index() {
     <div className="">
         <Head>
         <title>Learn from the top universities for Free</title>
-        <meta property="og:url" content="https://www.internetisawesome.xyz/"/>
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Learn from the top universities for Free"/>
-        <meta property="og:description" content="Get to learn from the top universities in the World for free"/>
-        <meta property="og:image" content="https://www.internetisawesome.xyz/twitter_banner_min.png"/>
+        <meta property="og:url" content="https://www.internetisawesome.xyz/"></meta>
+        <meta property="og:type" content="website"></meta>
+        <meta property="og:title" content="Learn from the top universities for Free"></meta>
+        <meta property="og:description" content="Get to learn from the top universities in the World for free"></meta>
+        <meta property="og:image" content="https://www.internetisawesome.xyz/twitter_banner_min.png"></meta>
 
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta property="twitter:domain" content="internetisawesome.xyz"/>
-        <meta property="twitter:url" content="https://www.internetisawesome.xyz/"/>
-        <meta name="twitter:title" content="Learn from the top universities for Free"/>
-        <meta name="twitter:description" content="Get to learn from the top universities in the World for free"/>
-        <meta name="twitter:image" src="https://www.internetisawesome.xyz/twitter_banner_min.png"/>
+        <meta name="twitter:card" content="summary_large_image"></meta>
+        <meta property="twitter:domain" content="internetisawesome.xyz"></meta>
+        <meta property="twitter:url" content="https://www.internetisawesome.xyz/"></meta>
+        <meta name="twitter:title" content="Learn from the top universities for Free"></meta>
+        <meta name="twitter:description" content="Get to learn from the top universities in the World for free"></meta>
+        <meta name="twitter:image" src="https://www.internetisawesome.xyz/twitter_banner_min.png"></meta>
       </Head>
             <header>
                 <div className="px-5 sm:px-10 lg:px-20 bg-gradient-to-r from-pink-400 via-red-400 to-red-600">
