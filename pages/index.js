@@ -19,14 +19,14 @@ export default function Home() {
           <div className="flex flex-row gap-2">
             <div className="">
                 <Link href="https://api.whatsapp.com/send?text=Curious%20about%20everything%20around%3F%20%0A%0ALearn%20from%20the%20top%20universities%20in%20the%20world%20for%20free!%0A%0ACheckout%20%3A%20internetisawesome.xyz">
-                    <a>
+                    <a target="_blank">
                         <Image src="/whatsapp.png" height={48} width={48}></Image>    
                     </a>
                 </Link>
             </div>
             <div className="">
                 <Link href="https://twitter.com/intent/tweet?text=Curious%20about%20everything%20around%3F%20%0A%0ALearn%20from%20the%20top%20universities%20in%20the%20world%20for%20free!%0A%0ACheckout%20%3A%20internetisawesome.xyz">
-                    <a>
+                    <a target="_blank">
                         <Image src="/twitter.png" height={48} width={48}></Image>    
                     </a>
                 </Link>
