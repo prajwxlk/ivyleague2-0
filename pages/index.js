@@ -12,14 +12,14 @@ export default function Home() {
         <meta property="og:type" content="website"></meta>
         <meta property="og:title" content="Learn from the top universities for Free"></meta>
         <meta property="og:description" content="Get to learn from the top universities in the World for free"></meta>
-        <meta property="og:image" src="/twitter_banner.png"></meta>
+        <meta property="og:image" content="/twitter_banner.png"></meta>
 
         <meta name="twitter:card" content="summary_large_image"></meta>
         <meta property="twitter:domain" content="internetisawesome.xyz"></meta>
         <meta property="twitter:url" content="https://www.internetisawesome.xyz/"></meta>
         <meta name="twitter:title" content="Learn from the top universities for Free"></meta>
         <meta name="twitter:description" content="Get to learn from the top universities in the World for free"></meta>
-        <meta name="twitter:image" src="/twitter_banner.png"></meta>
+        <meta name="twitter:image" content="/twitter_banner.png"></meta>
       </Head>
 
       <div className="pt-8 sm:mx-20">
