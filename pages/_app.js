@@ -10,21 +10,18 @@ function MyApp({ Component, pageProps }) {
   <div>
     <Head>
       
-      <title>Learn from the top universities for Free</title>
-      <meta name="description" content="">
+      <meta property="og:url" content="https://www.internetisawesome.xyz/"></meta>
+      <meta property="og:type" content="website"></meta>
+      <meta property="og:title" content="Learn from the top universities for Free"></meta>
+      <meta property="og:description" content=""></meta>
+      <meta property="og:image" content="/twitter_banner.png"></meta>
 
-      <meta property="og:url" content="https://www.internetisawesome.xyz/">
-      <meta property="og:type" content="website">
-      <meta property="og:title" content="Learn from the top universities for Free">
-      <meta property="og:description" content="">
-      <meta property="og:image" content="">
-
-      <meta name="twitter:card" content="summary_large_image">
-      <meta property="twitter:domain" content="internetisawesome.xyz">
-      <meta property="twitter:url" content="https://www.internetisawesome.xyz/">
-      <meta name="twitter:title" content="Learn from the top universities for Free">
-      <meta name="twitter:description" content="">
-      <meta name="twitter:image" content="">
+      <meta name="twitter:card" content="summary_large_image"></meta>
+      <meta property="twitter:domain" content="internetisawesome.xyz"></meta>
+      <meta property="twitter:url" content="https://www.internetisawesome.xyz/"></meta>
+      <meta name="twitter:title" content="Learn from the top universities for Free"></meta>
+      <meta name="twitter:description" content=""></meta>
+      <meta name="twitter:image" content="/twitter_banner.png"></meta>
 
   </Head>
   <Component {...pageProps} />
