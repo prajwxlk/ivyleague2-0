@@ -6,8 +6,7 @@ import Head from 'next/head';
 splitbee.init()
 
 function MyApp({ Component, pageProps }) {
-  return 
-  <div>
+  return <div>
     <Head>
       
       <meta property="og:url" content="https://www.internetisawesome.xyz/"></meta>
