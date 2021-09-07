@@ -157,7 +157,7 @@ export default function Home() {
                           Want to be an Entrepreneur?
                         </p>
                         <p className="mb-3 text-xl font-semibold leading-relaxed text-gray-100	"> 
-                          Courses on Marketing and Finance from University's like Wharton, MIT, Yale
+                          Courses on Marketing and Finance from Wharton, MIT, Yale
                         </p>
                         <Link href="/subject/mini-mba">
                                     <a>
