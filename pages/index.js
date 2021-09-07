@@ -70,7 +70,7 @@ export default function Home() {
                     </div>
             </div>
           </cards>
-          <grid className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <grid className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div>
                     <div className="p-2 px-5 py-10 bg-gradient-to-tl from-green-400 to-yellow-400 rounded-lg shadow-xl">
                       <div className="flex-grow p-6 py-2 rounded-lg">
