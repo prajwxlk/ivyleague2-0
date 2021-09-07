@@ -6,7 +6,7 @@ export default function Navigation() {
         <div>
             <header>
                 <div className=" bg-transparent">
-                    <div className="flex flex-row grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-8 p-4 justify-center">
+                    <div className="flex flex-row grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-9 p-4 justify-center">
                     <div>
                             <Link href="/subject/all">
                                 <a>
