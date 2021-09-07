@@ -156,7 +156,7 @@ export default function Home() {
                 <div className="p-2 px-5 py-10 bg-gradient-to-t from-green-400 to-blue-600 rounded-lg shadow-xl">
                       <div className="flex-grow p-6 py-2 rounded-lg">
                         <p className="mb-2 text-2xl font-bold leading-none tracking-tighter text-white sm:text-3xl"> 
-                          Be the next Jobs
+                          Inspired by Jobs?
                         </p>
                         <p className="mb-3 text-xl font-semibold leading-relaxed text-gray-100	"> 
                           Courses on Venture Capital, Marketing, Finance from Wharton, Yale & MIT.
