@@ -49,8 +49,8 @@ export default function Home() {
         </div>
 
         <section  className="flex flex-col sm:flex-row gap-4 pb-8 mx-4">
-          <cards>
-            <div className="container">
+          <grid className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <div className="container">
                     <div className="p-2 px-2 py-10 sm:px-5 sm:py-40 rounded-lg shadow-xl bg-gradient-to-r from-green-400 to-blue-500">
                       <div className="flex-grow p-6 py-2 rounded-lg">
                         <p className="mb-2 text-2xl font-bold leading-none tracking-tighter text-white sm:text-5xl"> 
@@ -68,9 +68,8 @@ export default function Home() {
                                 </Link>
                       </div>
                     </div>
-            </div>
-          </cards>
-          <grid className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                </div>
+          
               <div>
                     <div className="p-2 px-5 py-10 bg-gradient-to-tl from-green-400 to-yellow-400 rounded-lg shadow-xl">
                       <div className="flex-grow p-6 py-2 rounded-lg">
