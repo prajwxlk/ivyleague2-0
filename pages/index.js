@@ -23,7 +23,7 @@ export default function Home() {
         <meta name="twitter:image" content="/https://www.internetisawesome.xyz/twitter_banner_min.png"></meta>
       </Head>
 
-      <div className="pt-8 sm:mx-20">
+      <div className="pt-4 sm:mx-20">
         <Header/>
         <hero className="grid ">
           <h1 className="text-4xl sm:text-4xl mb-6 sm:mb-8 text-center font-bold leading-none tracking-tighter text-white">
