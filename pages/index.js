@@ -159,7 +159,7 @@ export default function Home() {
                           Be the next Jobs
                         </p>
                         <p className="mb-3 text-xl font-semibold leading-relaxed text-gray-100	"> 
-                          Courses on Business related from Wharton, Yale, MIT
+                          Courses on Venture Capital, Marketing, Finance from Wharton, Yale & MIT.
                         </p>
                         <Link href="/subject/mini-mba">
                                     <a>
