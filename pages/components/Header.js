@@ -1,14 +1,26 @@
 import React from 'react'
 import Link from 'next/link'
 
-export default function Header() {
+export default function Footer() {
     return (
         <div>
-            <div>
-                <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="internetiscool" data-color="#5F7FFF" data-emoji="📚"  data-font="Arial" data-text="Support Us" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
-                
-            </div>
+          <div className="container items-center">
+            <footer className="text-blueGray-700 transition duration-500 ease-in-out transform bg-transparent">
+              <div className="flex flex-col flex-wrap p-5 mx-auto md:items-center md:flex-row">
+                <span className="inline-flex justify-center mt-2 mr-2 sm:ml-auto sm:mt-0 sm:justify-start">
+                    <button 
+                    className="px-3 py-1 sm:px-6 sm:py-2 mt-auto font-semibold text-white transition duration-500 ease-in-out transform bg-blue-600 rounded-lg hover:bg-blue-700 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"
+                    >
+                        <Link target="_blank" href="https://www.buymeacoffee.com/internetiscool">
+                            <a target="_blank">
+                            Support Us!
+                            </a>
+                        </Link>
+                    </button>
+                </span>
+              </div>
+            </footer>
+          </div>
         </div>
     )
 }
-

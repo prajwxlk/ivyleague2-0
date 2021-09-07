@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Header from './components/Header'
 import Footer from './components/Footer'
 import Image from 'next/image'
 import Head from 'next/head'
@@ -23,6 +24,7 @@ export default function Home() {
       </Head>
 
       <div className="pt-8 sm:mx-20">
+        <Header/>
         <hero className="grid ">
           <h1 className="text-4xl sm:text-4xl my-4 mb-6 sm:mb-8 text-center font-bold leading-none tracking-tighter text-white">
             Learn from the top universities <br></br> in the world for free!
