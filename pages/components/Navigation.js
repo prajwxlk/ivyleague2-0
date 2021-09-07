@@ -86,6 +86,16 @@ export default function Navigation() {
                                 </a>
                             </Link>
                         </div>
+
+                        <div>
+                            <Link href="/subject/mini-mba">
+                                <a>
+                                    <button className="items-center px-3 py-3 mx-1 my-1 sm:px-6 sm:py-2 font-normal sm:font-semibold text-black bg-white hover:bg-gray-400 transition duration-500 ease-in-out transform rounded-lg focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">
+                                        Mini MBA
+                                    </button>
+                                </a>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </header>
