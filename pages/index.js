@@ -26,7 +26,7 @@ export default function Home() {
       <div className="pt-8 sm:mx-20">
         <Header/>
         <hero className="grid ">
-          <h1 className="text-4xl sm:text-4xl my-4 mb-6 sm:mb-8 text-center font-bold leading-none tracking-tighter text-white">
+          <h1 className="text-4xl sm:text-4xl mb-6 sm:mb-8 text-center font-bold leading-none tracking-tighter text-white">
             Learn from the top universities <br></br> in the world for free!
           </h1> 
         </hero>
