@@ -52,7 +52,7 @@ export default function Index() {
                         <Link href="/subject/mini-mba">
                             <a>
                                 <h1 className="mb-12 py-20 text-4xl font-bold leading-none tracking-tighter text-white sm:text-6xl">
-                                    mini-mba
+                                    Mini MBA
                                 </h1>
                             </a>
                         </Link>
