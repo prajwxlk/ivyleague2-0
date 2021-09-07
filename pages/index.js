@@ -149,6 +149,26 @@ export default function Home() {
                       </div>
                     </div>
               </div>
+
+              <div>
+                <div className="p-2 px-5 py-10 bg-gradient-to-b from-pink-400 via-red-400 to-red-600 rounded-lg shadow-xl">
+                      <div className="flex-grow p-6 py-2 rounded-lg">
+                        <p className="mb-2 text-2xl font-bold leading-none tracking-tighter text-white sm:text-3xl"> 
+                          Want to be an Entrepreneur?
+                        </p>
+                        <p className="mb-3 text-xl font-semibold leading-relaxed text-gray-100	"> 
+                          Courses on Marketing and Finance from University's like Wharton, MIT, Yale
+                        </p>
+                        <Link href="/subject/mini-mba">
+                                    <a>
+                                        <button className=" px-8 py-2 my-2 text-base font-medium text-white transition duration-500 ease-in-out transform border-black rounded-md bg-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blueGray-900 "> 
+                                            Explore →
+                                        </button>
+                                    </a>    
+                                </Link>
+                      </div>
+                    </div>
+              </div>
           </grid>
         </section>
       </div>
